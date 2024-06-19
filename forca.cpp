@@ -16,14 +16,11 @@ std ::vector<std::string> retornaCoutendoArquivo(const std::string &nomeArquivo)
         while (getline(arquivo, palavra)) {
             palavras.push_back(palavra);
         }
-
         arquivo.close();
-        
     } else {
         std::cerr <<"Erro ao abrir o arquivo " <<nomeArquivo << std::endl;
 
 }
-return palavras
 
 
 }
